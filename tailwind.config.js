@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'bg-primary': '#282C33',
         'tx-second': '#95EBA8',
+        'tx-third': '#373737',
         'btn-color': '#96EB95',
         'inp-bg-color': '#D9D9D91A',
         'inp-text': '#D9D9D91A',
