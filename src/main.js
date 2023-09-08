@@ -13,7 +13,9 @@ const liClass = [
   'h-11',
   'flex',
   'justify-around',
+  'content-center',
   'p-5',
+  'm-3',
 ];
 
 const getCurrencyUrl = (currency) => {
@@ -68,6 +70,8 @@ async function getCurrencyRef(url, currency) {
 
 formButton.addEventListener('submit', (event) => {
   event.preventDefault();
+  refValueText.innerText = '';
+  board.innerHTML = '';
   const currency = input.value;
   const url = getCurrencyUrl(currency);
   getCurrencyRef(url, currency);
