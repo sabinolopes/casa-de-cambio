@@ -9,8 +9,9 @@ module.exports = {
         'tx-third': '#373737',
         'btn-color': '#96EB95',
         'inp-bg-color': '#D9D9D91A',
-        'inp-text': '#D9D9D91A',
         'bg-second': '#FFFFFF0F',
+        'span-cl': '#FFE713',
+        'li-cl': 'rgba(0, 0, 0, 0.20)'
       },
       fontFamily: {
         'mono': ['"Fira Code"', 'ui-monospace', 'SFMono-Regular'],
