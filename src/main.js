@@ -15,7 +15,7 @@ const liClass = [
   'justify-around',
   'content-center',
   'p-5',
-  'm-3',
+  'm-2',
 ];
 
 const getCurrencyUrl = (currency) => {
